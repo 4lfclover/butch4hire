@@ -1,0 +1,233 @@
+/* || General styles */
+#title {
+    background-color:white;
+    height: 475px;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #navbar {
+    background-color: black;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 900;
+  }
+  
+  h1 {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+  h2 {
+    line-height: 1;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  h3 {
+    line-height: 1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  h4 {
+    line-height: 1;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+  h5 {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  p {
+    line-height: 1;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+
+  /* table{
+    position: absolute;
+  } */
+  
+  em {
+    font-family: 'Montserrat-light', sans-serif;
+  }
+
+  th, td {
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+
+  /* Navbar */
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+/* 7% */
+.container-fluid {
+  padding: 3% 15% 14%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+
+/* images */
+.heroimg1 {
+  width: 40%;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.heroimg2 {
+  width: 45%;
+  position: absolute;
+  left: 0%
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Quote Heros */
+#Quote {
+  text-align: center;
+  padding: 5% 15%;
+  background-color: black;
+  position: relative;
+}
+
+/* Services */
+#Services {
+  background-color: white;
+  text-align: right;
+  padding: 0% 5% 5%;
+  position: relative;
+}
+
+.services-box {
+  text-align: center;
+  margin: 0px;
+  margin-top: 0px;
+  position: relative;
+  top: 50px
+}
+
+.flexbox-container {
+  background-color: white;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-1 {
+    background-color: white;
+    width: 150px;
+    height: 65px;
+    border-radius: 1000px; 
+    margin: 0.5em;
+}
+
+.box-1:hover {
+  background-color: red;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+
+/* Testimonials */
+
+#Testimonials {
+  background-color: black;
+  text-align: center;
+  padding: 5% 5%;
+  position: relative;
+}
+
+.quoterow {
+  margin-top: 30px;
+}
+
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.column-pricing {
+  padding: 3% 2%;
+}
+
+
+
+/* FOOTER */
+#footer {
+  text-align: left;
+  padding: 2% 2% .2%;
+  background-color: black;
+}
+
+.footer-icons {
+  padding: .5% 1% 1.5%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+
+
+  .phoneimg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* || Header and Main Navigation */
+
+/* … */
